@@ -1,0 +1,50 @@
+<!--
+<div class="container team-container">
+
+  <div>
+    <img class="avatar avatar-super-large team-flex" src="images/romain.jpeg">
+    <p class= text-center><strong>Romain</strong></p>
+  </div>
+
+  <div>
+    <img class="avatar avatar-super-large team-flex" src="images/seb.jpg">
+    <p class= text-center><strong>Seb</strong></p>
+  </div>
+
+  <div>
+    <img class="avatar avatar-super-large team-flex" src="images/anne.jpg">
+    <p class= text-center><strong>Anne</strong></p>
+  </div>
+
+    <div>
+    <img class="avatar avatar-super-large team-flex" src="images/romain.jpeg">
+    <p class= text-center><strong>Romain</strong></p>
+  </div>
+
+  <div>
+    <img class="avatar avatar-super-large team-flex" src="images/seb.jpg">
+    <p class= text-center><strong>Seb</strong></p>
+  </div>
+
+  <div>
+    <img class="avatar avatar-super-large team-flex" src="images/anne.jpg">
+    <p class= text-center><strong>Anne</strong></p>
+  </div>
+
+</div> -->
+
+
+<div class="container">
+  <div class="row">
+    <% data.team.each do |member, profil| %>
+    <div class="col-xs-12 col-sm-4">
+      <div class="profil text-center">
+      <img class="avatar avatar-super-large" src="<%= image_path profil.picture %>">
+      <p class= text-center><strong><%= profil.name %></strong></p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
+
+

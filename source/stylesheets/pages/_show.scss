@@ -1,0 +1,54 @@
+.header-flat {
+  padding: 25px 0;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.header-flat form {
+  background: #F4F4F4;
+  padding: 15px;
+}
+
+.header-flat-details {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+.header-flat-name {
+  padding-left: 30px;
+}
+
+
+.header-flat-details h1 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.header-flat-details p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #777777;
+}
+
+
+#flat-description {
+  background: #F5F5F5;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #9B9B9B;
+  font-size: 14px;
+
+}
+
+
+#flat-description h2 {
+    font-size: 18px;
+    color: #333333;
+  }
+
+#flat-description p, ul {
+  }
+
+#flat-data strong {
+    margin-left: 9px;
+}

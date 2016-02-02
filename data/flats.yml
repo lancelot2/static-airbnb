@@ -1,0 +1,32 @@
+seb:
+  owner_name: Sebastien Saunier
+  picture: card-paris.jpg
+  owner_picture: seb.jpg
+  name: Seb's home
+  description: Charming room in Montmartre
+  city: Paris, France
+  wifi: true
+romain:
+  owner_name: Romain Paillard
+  picture: card-london.jpeg
+  owner_picture: romain.jpeg
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+anne:
+  owner_name: Anne Paillard
+  picture: card-brussels.jpeg
+  owner_picture: anne.jpg
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city: London, UK
+  wifi: false
+lancelot:
+  owner_name: Lancelot Salavert
+  picture: card-brussels.jpeg
+  owner_picture: avatar.jpg
+  name: Lancelot's home
+  description: Nice flat in Paris
+  city: London, UK
+  wifi: true
