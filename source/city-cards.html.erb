@@ -1,0 +1,18 @@
+<!-- source/index.html.erb -->
+
+<div class="container">
+  <div class="paragraph-header text-center">Escape for a week-end
+  <p>Discover new, inspiring places close to home.</p>
+  </div>
+  <div class="row">
+    <% data.cities.each do |city, description| %>
+      <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('<%= image_path description.picture %>');">
+        <div class="card-category"><%= description.name %></div>
+        </div>
+        <%= link_to "", "cities/#{city}.html", class: "card-link" %>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>

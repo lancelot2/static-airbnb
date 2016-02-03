@@ -35,6 +35,10 @@ activate :autoprefixer
   proxy "/flats/#{name}.html", "/flats/show.html", :locals => { :owner => name }, :ignore => true
 end
 
+["amsterdam", "newyork", "brussels", "lille", "lisbon"].each do |name|
+  proxy "/cities/#{name}.html", "/cities/cities.html", :locals => { :town => name }, :ignore => true
+end
+
 ###
 # Helpers
 ###

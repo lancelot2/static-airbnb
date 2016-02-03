@@ -1,0 +1,45 @@
+.vertical {
+  height: 492px;
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+.vertical:hover {
+  opacity: 0.9;
+}
+
+.vertical_description p {
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+
+.vertical_tag {
+  color: white;
+  width: 120px;
+  padding: 8px 0;
+  margin: 0 auto;
+}
+
+.vertical_pusher {
+  height: 310px;
+  flex: 1 0 auto;
+}
+
+
+.vertical_title {
+  color: white;
+  font-size: 32px;;
+}
+
+.vertical-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
