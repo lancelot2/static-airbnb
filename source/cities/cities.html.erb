@@ -1,7 +1,39 @@
+
 <!-- banner -->
 
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('https://goo.gl/ptcoRo'); height: 35vh; background-position: center;">
+  <div class="banner-content">
+    <h1>Escape for the Weekend</h1>
+    <p>Explore our collection of weekend destinations near Paris.</p>
+  </div>
+</div>
+
+
+
+<!-- header -->
+
+<div class="header-flat">
+  <div class="container">
+  <div class="city hearder" style="font-size: 32px; font-weight: normal">
+    <p><%= town.capitalize %></p>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <div class="city-slider">
+            <%= image_tag data.cities[town].picture %>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6">
+        <div class="city-description">
+          <h2>Why Visit?</h2>
+          <p>Pub culture, tea culture, the royal family, Big Ben, Shakespeare, wry humor, theatre, fashion and finance, fish and chips, Tate Modern, the Tube, the gap.</p>
+        </div>
+      </div>
 
 
 
 
-
+    </div>
+  </div>
+</div>
